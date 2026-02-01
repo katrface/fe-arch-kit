@@ -14,9 +14,12 @@ export default defineConfig({
   ],
 
   themeConfig: {
+    siteTitle: 'FE Arch-kit <span class="badge-alpha">alpha</span>',
     logo: '/logo.svg',
     nav: [
-      { text: 'Каталог решений', link: '/todo' }
+      { text: 'Каталог решений', link: '/todo' },
+      { text: 'Roadmap', link: '/roadmap' },
+      { text: 'Обратная связь', link: '/todo' },
     ],
 
     sidebar: [
