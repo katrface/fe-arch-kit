@@ -5,10 +5,15 @@
   "scripts": {
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
-    "docs:preview": "vitepress preview docs"
+    "docs:preview": "vitepress preview docs",
+    "lint:md": "markdownlint \"**/*.md\"",
+    "lint:md:fix": "markdownlint \"**/*.md\" --fix"
   },
   "dependencies": {
     "vitepress": "2.0.0-alpha.15"
   },
-  "packageManager": "pnpm@10.26.1"
+  "packageManager": "pnpm@10.26.1",
+  "devDependencies": {
+    "markdownlint-cli": "^0.47.0"
+  }
 }
